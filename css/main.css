@@ -82,8 +82,27 @@ footer .footer_container {
 .l-mainmenu > ul > li {
   display: inline-block;
 	margin: 5px 18px 0 18px;
-
+	position: relative;
 }
+.l-mainmenu > ul > li > a {
+	display: block;
+	margin: 0;
+	padding: 0;
+	vertical-align: text-bottom;
+	line-height: 1;
+}
+.l-mainmenu > ul > li > a > img {
+	vertical-align: text-bottom;
+	line-height: 1;
+}
+.l-mainmenu > ul > li > span {
+	position: absolute;
+	top: -90px;
+  left: 50%;
+  margin-left: -75px;
+	display: none;
+}
+
 .l-submenu {
 	margin: 16px auto 30px;
 }
