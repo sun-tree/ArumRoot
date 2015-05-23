@@ -58,6 +58,8 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  background-repeat: repeat-x;
+  background-position: 50% 0;
   background-image: url(/images/footer_background.png);
 }
 
