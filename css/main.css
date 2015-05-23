@@ -61,6 +61,35 @@ footer {
   background-image: url(/images/footer_background.png);
 }
 
+.l-mainmenu {
+}
+.l-mainmenu > ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.l-mainmenu > ul > li {
+  display: inline-block;
+}
+.l-submenu > ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.l-submenu > ul > li {
+  display: inline-block;
+}
+.l-footermenu > ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.l-footermenu > ul > li {
+  display: inline-block;
+}
+
+
 /*TOP詳細*/
 .ctn_calender{
+	width:;
 	}
