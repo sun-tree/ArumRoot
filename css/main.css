@@ -63,6 +63,12 @@ footer {
   background-repeat: repeat-x;
   background-position: 50% 0;
   background-image: url(/images/footer_background.png);
+	text-align: center;
+}
+footer .footer_container {
+	width: 1010px;
+	padding: 0;
+	margin: auto;
 }
 
 .l-mainmenu {
@@ -75,7 +81,7 @@ footer {
 }
 .l-mainmenu > ul > li {
   display: inline-block;
-	margin: 5px 15px 0 15px;
+	margin: 5px 18px 0 18px;
 
 }
 .l-submenu {
@@ -89,11 +95,12 @@ footer {
 .l-submenu > ul > li {
   display: inline-block;
 	font-size: 14px;
-	margin: 0 18px;
+	margin: 0 10px;
 }
 .l-submenu > ul > li > a {
 	color: #00b383;
 	position: relative;
+	padding: 6px 16px 6px 6px
 }
 .l-submenu > ul > li > a:after {
 	content: "";
@@ -103,7 +110,7 @@ footer {
 	border-width: 5px 0 5px 7px;
 	border-color: transparent transparent transparent #00b383;
 	position: absolute;
-	right: -12px;
+	right: 5px;
 	top: 50%;
 	margin-top: -5px;
 }
@@ -115,16 +122,37 @@ footer {
 }
 .l-submenu > ul > li > a:hover {
 	text-decoration: none;
-	color: #00b383;
+	color: #f15a24;
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	-webkit-box-shadow: 3px 3px 3px #e5dc63;
+	-moz-box-shadow: 3px 3px 3px #e5dc63;
+	box-shadow: 3px 3px 3px #e5dc63;
+	background: #fcee21;
+	text-decoration: none;
 }
-
+.l-footermenu {
+	text-align: right;
+	margin: 0 20px 10px 0;
+}
 .l-footermenu > ul {
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 .l-footermenu > ul > li {
   display: inline-block;
+	font-size: 14px;
+	margin: 0 10px;
+}
+.l-footermenu > ul > li > a:link,
+.l-footermenu > ul > li > a:visited {
+	text-decoration: none;
+	color: #00b383;
+}
+.l-footermenu > ul > li > a:hover {
+	text-decoration: none;
+	color: #f15a24;
 }
 
 
